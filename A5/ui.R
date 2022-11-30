@@ -40,7 +40,7 @@ write.csv(data, file = "owid-co2-data.csv")
 
 # defining UI for application
 ui <- fluidPage(theme = shinytheme("cerulean"),
-    navbarPage(title = "Changing Carbon Emissions Over Time",
+    navbarPage(title = "Alarming Increase in Carbon Emissions Over Time",
                tabPanel("Overview",
                         h1("Overview"),
                         p("Throughout this assignment, I chose to highlight the 
